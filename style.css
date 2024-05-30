@@ -1,0 +1,217 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.wrapper img {
+    width: auto;
+    margin-right: 150px;
+}
+
+.logo a {
+    font-size: 60px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #0F4C75;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+    border-bottom: 1px solid #0F4C75;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;   
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    font-family: 'comic sans ms';
+    color: #0F4C75;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: #0F4C75;
+    width: 100%;
+    line-height: 70px;
+}
+
+p {
+    font-family: 'comic sans ms';
+    font-size: 20px;
+    color: black;
+    text-align: justify;
+}
+
+a.tbl-biru {
+    background: #3F72AF;
+    border-radius: 10px;
+    margin-top: 15px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+a.tbl-biru:hover {
+    background: #E84545;
+    text-decoration: none;
+}
+
+.kemampuan img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+#contact {
+    background: #dedede;
+    padding: 50px 0px 50px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: auto;
+}
+
+h3 {
+    font-family: 'comic sans ms';
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #3F72AF;
+    width: 100%;
+    line-height: 100px;
+}
+
+.footer-section img {
+    size: 40px;
+    width: 100px;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width : 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: right;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 50%;
+        height: auto;
+    }
+
+    .footer {
+        display: block;
+        width: 50%;
+        height: auto;
+    }
+}
